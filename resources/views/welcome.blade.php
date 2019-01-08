@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="css/app.css" rel="stylesheet" type="text/css">
+
 
         <!-- Styles -->
         <style>
@@ -77,11 +79,11 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content" id="app">
                 <div class="title m-b-md">
                     Success!!
                 </div>
-
+                <example></example>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
@@ -93,3 +95,4 @@
         </div>
     </body>
 </html>
+<script src="/js/app.js"></script>
