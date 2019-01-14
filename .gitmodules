@@ -1,0 +1,3 @@
+[submodule "Laradock"]
+	path = Laradock
+	url = https://github.com/CreatopEJLin/Laradock.git
